@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nome da Modelo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+
+    .perfil {
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .perfil img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+
+    .perfil h1 {
+      font-size: 1.4em;
+      margin: 5px 0;
+    }
+
+    .perfil p {
+      font-size: 0.95em;
+      color: #555;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    /* Botões tipo Linktree */
+    .botoes a {
+      display: block;
+      margin: 10px auto;
+      max-width: 320px;
+      padding: 14px;
+      border: 1px solid #111;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .botoes a:hover {
+      background: #111;
+      color: #fff;
+    }
+
+    /* Feed */
+    .feed {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 30px;
+    }
+
+    .feed img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.85em;
+      color: #777;
+    }
+
+    @media (min-width: 768px) {
+      .feed {
+        max-width: 1000px;
+        margin: 40px auto 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="perfil">
+  <img src="perfil.jpg">
+  <h1>SEU NOME</h1>
+  <p>
+    Modelo iniciante • Fashion • Editorial<br>
+    Aberta a colaborações
+  </p>
+
+  <div class="botoes">
+    <a href="https://instagram.com/SEU_INSTAGRAM" target="_blank">
+      Instagram
+    </a>
+    <a href="https://wa.me/55SEUNUMERO" target="_blank">
+      WhatsApp
+    </a>
+    <a href="mailto:seuemail@email.com">
+      Email profissional
+    </a>
+  </div>
+</div>
+
+<div class="feed">
+  <img src="foto1.jpg">
+  <img src="foto2.jpg">
+  <img src="foto3.jpg">
+  <img src="foto4.jpg">
+  <img src="foto5.jpg">
+  <img src="foto6.jpg">
+</div>
+
+<footer>
+  © 2026 • Nome da Modelo
+</footer>
+
+</body>
+</html>
